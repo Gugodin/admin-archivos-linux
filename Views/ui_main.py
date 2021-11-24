@@ -36,7 +36,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.Entry.setText("")
+        self.Entry.setText(QCoreApplication.translate("MainWindow", "C:\\Users\\humbe\\Desktop\\prueba", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Pega la dirección del sistema a administrar.", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Aceptar", None))
         self.labelError.setText("")
