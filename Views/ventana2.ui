@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>695</width>
-    <height>492</height>
+    <height>0</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,16 +35,6 @@
     </property>
     <property name="text">
      <string>Buscar</string>
-    </property>
-   </widget>
-   <widget class="QListView" name="tabla">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>100</y>
-      <width>421</width>
-      <height>341</height>
-     </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="permisos">
@@ -156,6 +146,31 @@
     <property name="scaledContents">
      <bool>true</bool>
     </property>
+   </widget>
+   <widget class="QTableWidget" name="tabla">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>411</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nombre del archivo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Usuario</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fecha</string>
+     </property>
+    </column>
    </widget>
   </widget>
  </widget>
